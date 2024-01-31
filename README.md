@@ -1,7 +1,12 @@
-## Bun + TypeScript + Next + bsv-wasm example
+## Next + bsv-wasm example
+
+// link to github.com bsv-wasm
+[bsv-wasm](http://github.com/firaenix/bsv-wasm) is a WebAssembly implementation of Bitcoin SV (BSV) for use in web applications. This example shows how to use `bsv-wasm` in a Next.js app.
 
 ## Key Features
-
+- Shows usage of `bsv-wasm` on app route (server side)
+- Shows usage on client side with `bsv-wasm-web` calling `init()` before usage
+- Uses `@preact/signals-react` for state
 - [<img src="https://user-images.githubusercontent.com/124377191/228447757-78408c15-e914-4fb3-9135-f1ff45ee3fce.svg" height=19.2 align=center /> GitHub](https://github.com)
   - [One click template](https://github.com/rohenaz/next-wasm/generate)
   
