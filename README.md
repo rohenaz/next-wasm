@@ -1,6 +1,5 @@
 ## Next + bsv-wasm example
 
-// link to github.com bsv-wasm
 [bsv-wasm](http://github.com/firaenix/bsv-wasm) is a WebAssembly implementation of Bitcoin SV (BSV) for use in web applications. This example shows how to use `bsv-wasm` in a Next.js app.
 
 ## Key Features
