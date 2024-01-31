@@ -1,63 +1,36 @@
-# Bun + TypeScript starter
-
-![](../../actions/workflows/ci.yml/badge.svg)
-
-[![](https://railway.app/button.svg)](https://railway.app/template/G3k1Tv?referralCode=bonus)
-
-## Key Features
-
-- [<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/17180392/266803654-ac5f086c-71ec-493a-a377-784cec2dc525.svg" height=19.2 align=center /> Bun](https://bun.sh/)
-  - [Debugging](.vscode/launch.json)
-  - [ESM & CommonJS compatibility](https://bun.sh/blog/bun-v1.0#esm-commonjs-compatibility)
-  - [Fast package manager](https://bun.sh/blog/bun-v1.0#install-speeds)
-  - [Fast runtime](https://bun.sh/blog/bun-v1.0#speed)
-  - [Fast test runner](https://bun.sh/blog/bun-v1.0#bun-is-a-test-runner)
-  - [Highly optimized APIs](https://bun.sh/blog/bun-v1.0#bun-apis)
-  - [Hot reloading](https://bun.sh/docs/runtime/hot#hot-mode)
-  - [TypeScript first class support](https://bun.sh/docs/runtime/typescript)
-- [<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/17180392/266780371-74b32ff7-5cc3-45e1-af80-923a05c9f87b.svg" height=19.2 align=center /> Biome](https://biomejs.dev/)
-  - [Fast formatting](https://github.com/biomejs/biome/tree/main/benchmark#formatting)
-  - [Fast linting](https://github.com/biomejs/biome/tree/main/benchmark#linting)
-  - [Import sorting](https://biomejs.dev/analyzer/#imports-sorting)
-- [<img src="https://user-images.githubusercontent.com/124377191/228447757-78408c15-e914-4fb3-9135-f1ff45ee3fce.svg" height=19.2 align=center /> GitHub](https://github.com)
-  - [One click template](https://github.com/dayblox/bun-ts/generate)
-  - [Continuous Integration](.github/workflows/ci.yml)
-
-## Prerequisites
-
-- [<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/17180392/266803654-ac5f086c-71ec-493a-a377-784cec2dc525.svg" height=19.2 align=center /> Bun](https://bun.sh/) `>=1.0.0`
-  - [All-in-one toolkit](https://bun.sh/blog/bun-v1.0#bun-is-an-all-in-one-toolkit)
-  - [JavaScript runtime](https://bun.sh/blog/bun-v1.0#bun-is-a-javascript-runtime)
-  - [Package manager](https://bun.sh/blog/bun-v1.0#bun-is-a-package-manager)
-  - [Test runner](https://bun.sh/blog/bun-v1.0#bun-is-a-test-runner)
-  - [Bundler](https://bun.sh/blog/bun-v1.0#bun-is-a-bundler)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It has some modifications to demonstrate running bsv-wasm and bsv-wasm-web in a Next.js project.
 
 ## Getting Started
 
-1.  **[Deploy on Railway](https://railway.app/template/G3k1Tv?referralCode=bonus)** or **[use this template](https://github.com/dayblox/bun-ts/generate)**
+First, run the development server:
 
-2.  **Clone** the repository
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-3.  **Install** dependencies
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-    ```sh
-    bun i
-    ```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Usage
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- **Development** mode (**debug**)
+## Learn More
 
-  `F5`
+To learn more about Next.js, take a look at the following resources:
 
-- Running **tests** (**watch** mode)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-  ```sh
-  bun test --watch
-  ```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- **Production** mode
+## Deploy on Vercel
 
-  ```sh
-  bun start
-  ```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
