@@ -1,5 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It has some modifications to demonstrate running bsv-wasm and bsv-wasm-web in a Next.js project.
+## Bun + TypeScript + Next + bsv-wasm example
 
+## Key Features
+
+- [<img src="https://user-images.githubusercontent.com/124377191/228447757-78408c15-e914-4fb3-9135-f1ff45ee3fce.svg" height=19.2 align=center /> GitHub](https://github.com)
+  - [One click template](https://github.com/rohenaz/next-wasm/generate)
+  
 ## Getting Started
 
 First, run the development server:
