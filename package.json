@@ -14,7 +14,7 @@
     "bsv-wasm": "^2.1.1",
     "bsv-wasm-web": "^2.1.1",
     "copy-webpack-plugin": "^12.0.2",
-    "next": "14.1.0",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
   },

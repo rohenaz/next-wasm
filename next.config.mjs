@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 import CopyPlugin from "copy-webpack-plugin";
 const nextConfig = {
-  webpack: function (config, { isServer }) {
+  webpack: (config, { isServer }) => {
     if (isServer) {
       config.plugins.push(
         new CopyPlugin({
